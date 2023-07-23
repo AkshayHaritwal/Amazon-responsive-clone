@@ -1,0 +1,587 @@
+@media screen and (max-width:1345px ) and (min-width:1070px) {
+  .nav-search .select #category {
+    width: 5vw;
+  }
+  .lan #language {
+    width: 1.5vw;
+  }
+
+}
+@media screen and (max-width:1070px ) and (min-width:860px)  {
+  .nav-search .select #category {
+    width: 6vw;
+    padding:6px ;
+  }
+  .search-box #search {
+    width: 35vw;
+    padding:6px ;
+    
+  }
+  .navbar .location .address .add {
+    font-size: 0.5rem;
+  }
+  .sign-in .sign {
+    font-size: 0.6rem;
+  }
+  .order {
+    padding: 0.2rem;
+  }
+  .order .rt {
+    font-size: 0.7rem;
+  }
+  .order .od {
+    font-size: 0.7rem;
+  }
+  .lan #language {
+    width: 2vw;
+  }
+
+  .links .us p {
+    font-size: 0.8rem;
+  }
+  .s-icon .icon {
+  padding: 9px;
+  }
+
+  .links .us a {
+    font-size: 0.9rem;
+  }
+
+  .copyright .useful a{
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width:860px ) and (min-width:738px)  {
+  .nav-search .select #category {
+    width: 6vw;
+    padding:5px ;
+    font-size: 0.9rem;
+  }
+  .search-box #search {
+    width: 35vw;
+    padding:5px ;
+    font-size: 0.9rem;
+    
+  }
+  .navbar .location .address .add {
+    font-size: 0.5rem;
+  }
+  .sign-in .sign {
+    font-size: 0.6rem;
+  }
+  .order {
+    padding: 0.2rem;
+  }
+  .order .rt {
+    font-size: 0.7rem;
+  }
+  .order .od {
+    font-size: 0.7rem;
+  }
+  .lan #language {
+    width: 2vw;
+  }
+
+  .links .us p {
+    font-size: 0.8rem;
+  }
+  .s-icon .icon {
+  padding: 8px;
+  font-size: 0.9rem;
+  }
+  .lan .flag {
+    width: 2.5vw;
+  }
+  .sign-in {
+    padding: 0.2rem;
+  }
+  .order .rt {
+    font-size: 0.6rem;
+  }
+  .order .od {
+    font-size: 0.6rem;
+  }
+  .links .us a {
+    font-size: 0.8rem;
+  }
+
+  .copyright .useful a{
+    font-size: 0.9rem;
+  }
+
+  
+}
+
+
+@media screen and (max-width:738px) and (min-width:622px) {
+  .nav-search .select #category {
+    width: 7vw;
+    padding:5px ;
+    font-size: 0.8rem;
+  }
+  .search-box #search {
+    width: 35vw;
+    padding:5px ;
+    font-size: 0.8rem;
+    
+  }
+  .navbar .location .address .add {
+    font-size: 0.5rem;
+  }
+  .sign-in .sign {
+    font-size: 0.6rem;
+  }
+  .order {
+    padding: 0.2rem;
+  }
+  .order .rt {
+    font-size: 0.7rem;
+  }
+  .order .od {
+    font-size: 0.7rem;
+  }
+  .lan #language {
+    width: 2.5vw;
+  }
+
+  .links .us p {
+    font-size: 0.8rem;
+  }
+  .s-icon .icon {
+  padding: 7px;
+  font-size: 0.8rem;
+  }
+  .lan .flag {
+    width: 2.9vw;
+  }
+  .sign-in {
+    padding: 0.2rem;
+  }
+  .order .rt {
+    font-size: 0.6rem;
+  }
+  .order .od {
+    font-size: 0.6rem;
+  }
+
+  .nav-logo img{
+    width: 8vw;
+  }
+
+  .add b {
+    font-size: 0.5rem;
+  }
+  .links .us a {
+    font-size: 0.7rem;
+  }
+
+  .copyright .useful a{
+    font-size: 0.9rem;
+  }
+
+}
+
+
+@media screen and (max-width:738px) and (min-width:561px) {
+  .nav-search .select #category {
+    width: 8vw;
+    padding:4px ;
+    font-size: 0.8rem;
+  }
+  .search-box #search {
+    width: 28vw;
+    padding:4px ;
+    font-size: 0.8rem;
+    
+  }
+  .navbar .location .address .add {
+    font-size: 0.5rem;
+  }
+  .sign-in .sign {
+    font-size: 0.6rem;
+  }
+  .order {
+    padding: 0.2rem;
+  }
+  .order .rt {
+    font-size: 0.7rem;
+  }
+  .order .od {
+    font-size: 0.7rem;
+  }
+  .lan #language {
+    width: 2.5vw;
+  }
+
+  .links .us p {
+    font-size: 0.8rem;
+  }
+  .s-icon {
+    width: 5vw;
+  }
+  .s-icon .icon {
+  padding: 6px;
+  font-size: 0.8rem;
+  }
+  .lan .flag {
+    width: 2.9vw;
+  }
+  .sign-in {
+    padding: 0.2rem;
+  }
+  .order .rt {
+    font-size: 0.6rem;
+  }
+  .order .od {
+    font-size: 0.6rem;
+  }
+
+  .nav-logo img{
+    width: 8vw;
+  }
+
+  .add b {
+    font-size: 0.5rem;
+  }
+  .links .us a {
+    font-size: 0.7rem;
+  }
+
+  .copyright .useful a{
+    font-size: 0.8rem;
+  }
+
+}
+
+@media screen and  (max-width:561px) and (min-width: 500px) {
+  .nav-search .select #category {
+    width: 8vw;
+    padding:3.5px ;
+    font-size: 0.7rem;
+  }
+  .search-box #search {
+    width: 25vw;
+    padding:3.5px ;
+    font-size: 0.7rem;
+    
+  }
+  .navbar .location .address .add {
+    font-size: 0.4rem;
+  }
+  .sign-in .sign {
+    font-size: 0.6rem;
+  }
+  .order {
+    padding: 0.2rem;
+  }
+  .order .rt {
+    font-size: 0.6rem;
+  }
+  .order .od {
+    font-size: 0.7rem;
+  }
+  .lan #language {
+    width: 2.5vw;
+    height: 3vh;
+}
+
+
+  .links .us p {
+    font-size: 0.7rem;
+  }
+  .s-icon {
+    width: 4vw;
+  }
+  .s-icon .icon {
+  padding: 5px;
+  font-size: 0.8rem;
+  }
+  .lan .flag {
+    width: 2.9vw;
+  }
+  .sign-in {
+    padding: 0.1rem;
+  }
+  .order .rt {
+    font-size: 0.5rem;
+  }
+  .order .od {
+    font-size: 0.5rem;
+  }
+
+  .nav-logo img {
+    width: 9vw;
+}
+
+  .add b {
+    font-size: 0.5rem;
+  }
+  .links .us a {
+    font-size: 0.7rem;
+  }
+  .copyright .useful a{
+    font-size: 0.9rem;
+  }
+
+}
+
+@media screen and   (max-width: 500px) and (min-width:460px) {
+  .nav-search .select #category {
+    width: 8vw;
+    padding:3px ;
+    font-size: 0.6rem;
+  }
+  .search-box #search {
+    width: 25vw;
+    padding:3.5px ;
+    font-size: 0.6rem;
+    
+  }
+  .navbar .location .address .add {
+    font-size: 0.3rem;
+  }
+  .sign-in .sign {
+    font-size: 0.5rem;
+  }
+  .order {
+    padding: 0.2rem;
+  }
+  .order .rt {
+    font-size: 0.6rem;
+  }
+  .order .od {
+    font-size: 0.6rem;
+  }
+  .lan #language {
+    width: 3vw;
+    height: 3vh;
+}
+
+
+  .links .us p {
+    font-size: 0.6rem;
+  }
+  .s-icon {
+    width: 4vw;
+  }
+  .s-icon .icon {
+  padding: 4px;
+  font-size: 0.8rem;
+  }
+  .lan .flag {
+    width: 2.9vw;
+  }
+  .sign-in {
+    padding: 0.1rem;
+  }
+  .order .rt {
+    font-size: 0.5rem;
+  }
+  .order .od {
+    font-size: 0.5rem;
+  }
+
+  .nav-logo img {
+    width: 10vw;
+}
+
+  .add b {
+    font-size: 0.5rem;
+  }
+  .navbar .location {
+    padding: 0px;
+  }
+  
+
+.navbar .location .address{
+  margin-right: 1px;
+}
+
+.links .us a {
+  font-size: 0.6rem;
+}
+
+.copyright .useful a{
+  font-size: 0.9rem;
+}
+
+  
+}
+
+@media screen and  (max-width:460px) and (min-width:335px) {
+  .nav-search .select #category {
+    width: 5vw;
+    padding:2px ;
+    font-size: 0.4rem;
+    margin-bottom: 6px;
+  }
+  .search-box #search {
+    width: 20vw;
+    padding:2px ;
+    font-size: 0.4rem;
+    
+  }
+  .navbar .location .address .add {
+    font-size: 0.3rem;
+  }
+  .sign-in .sign {
+    font-size: 0.5rem;
+  }
+  .order {
+    padding: 0.2rem;
+  }
+  .order .rt {
+    font-size: 0.6rem;
+  }
+  .order .od {
+    font-size: 0.6rem;
+  }
+  .lan #language {
+    width: 4vw;
+    height: 2vh;
+}
+
+
+  .links .us p {
+    font-size: 0.6rem;
+  }
+  .s-icon {
+    width: 4vw;
+  }
+  .s-icon .icon {
+  padding: 2px;
+  font-size: 0.6rem;
+  }
+  .lan .flag {
+    width: 2.9vw;
+  }
+  .sign-in {
+    padding: 0.1rem;
+  }
+  .order .rt {
+    font-size: 0.5rem;
+  }
+  .order .od {
+    font-size: 0.5rem;
+  }
+
+  .nav-logo img {
+    width: 10vw;
+}
+
+  .add b {
+    font-size: 0.3rem;
+  }
+  .navbar .location {
+    padding: 0px;
+  }
+  
+
+.navbar .location .address{
+  margin-right: 1px;
+}
+
+.links .us a {
+  font-size: 0.6rem;
+}
+
+.copyright .useful a{
+  font-size: 0.9rem;
+}
+.navbar .location .address .hello {
+  font-size: 0.5rem;
+}
+  
+}
+
+
+@media screen and  (max-width:335px) {
+  .nav-search .select #category {
+    width: 5vw;
+    padding:2px ;
+    font-size: 0.3rem;
+    margin-bottom: 7px;
+  }
+  .search-box #search {
+    width: 18vw;
+    padding:2px ;
+    font-size: 0.3rem;
+    
+  }
+  .navbar .location .address .add {
+    font-size: 0.3rem;
+  }
+  .sign-in .sign {
+    font-size: 0.5rem;
+  }
+  .order {
+    padding: 0.2rem;
+  }
+  .order .rt {
+    font-size: 0.5rem;
+  }
+  .order .od {
+    font-size: 0.5rem;
+  }
+  .lan #language {
+    width: 4vw;
+    height: 2vh;
+}
+
+
+  .links .us p {
+    font-size: 0.5rem;
+  }
+  .s-icon {
+    width: 3vw;
+  }
+  .s-icon .icon {
+  padding: 2px;
+  font-size: 0.5rem;
+  }
+  .lan .flag {
+    width: 3vw;
+  }
+  .sign-in {
+    padding: 0.1rem;
+  }
+  .order .rt {
+    font-size: 0.4rem;
+  }
+  .order .od {
+    font-size: 0.4rem;
+  }
+
+  .nav-logo img {
+    width: 10vw;
+}
+
+  .add b {
+    font-size: 0.3rem;
+  }
+  .navbar .location {
+    padding: 0px;
+  }
+  
+
+.navbar .location .address{
+  margin-right: 1px;
+}
+
+.links .us a {
+  font-size: 0.6rem;
+}
+
+.copyright .useful a{
+  font-size: 0.9rem;
+}
+.navbar .location .address .hello {
+  font-size: 0.5rem;
+}
+.nav-logo{
+  margin: 0;
+}
+  
+}
+

@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Amazon</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/slider.css" />
+    <link rel="stylesheet" href="./css/mobile.css">
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <!-- nav-left  -->
+        <div class="nav-left">
+          <div class="nav-logo">
+            <a href="https://www.amazon.in"
+              ><img src="./images/amazon.png" alt="Amazon"
+            /></a>
+          </div>
+          <div class="location">
+            <span><img src="./images/location.png" alt="Location" /></span>
+            <div class="address">
+              <p class="hello">Hello</p>
+              <p class="add"><b>Select Your Address</b></p>
+            </div>
+          </div>
+        </div>
+
+        <!-- nav-search-->
+
+        <div class="nav-search">
+          <div class="select">
+            <select name="category" id="category">
+              <option value="All Categories">All</option>
+              <option value="Electronics">Electronics</option>
+              <option value="Fashion Wear">Fashion Wear</option>
+              <option value="Sports Equipment">Sports Equipment</option>
+              <option value="Books">Books</option>
+              <option value="Jewellery">Jewellery</option>
+            </select>
+          </div>
+          <div class="search-box">
+            <input
+              type="search"
+              name="search"
+              id="search"
+              placeholder="Search Amazon.in"
+            />
+          </div>
+          <div class="s-icon">
+            <!-- <img src="./images/s-icon.jpg" alt="Search icon" class="icon" /> -->
+            <i class="fa-solid fa-magnifying-glass icon" ></i>
+          </div>
+        </div>
+
+        <!-- language -->
+        <div class="lan">
+          <img src="./images/india.png" alt="India" class="flag" />
+          <select name="language" id="language">
+            <option value="EN">EN</option>
+            <option value="Hindi">Hindi</option>
+            <option value="English">English</option>
+            <option value="Marathi">Marathi</option>
+            <option value="Haryanvi">Haryanvi</option>
+            <option value="Tamil">Tamil</option>
+            <option value="Marwadi">Marwadi</option>
+          </select>
+        </div>
+
+        <!-- sign-in  -->
+
+        <div class="sign-in">
+          <a
+            href="https://www.amazon.in/ap/signin?openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.amazon.in%2F%3Fref_%3Dnav_signin&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=inflex&openid.mode=checkid_setup&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0"
+            class="sign"
+            >Sign-In</a
+          >
+        </div>
+
+        <!-- order -->
+
+        <div class="order">
+          <h2 class="rt">Return</h2>
+          <h2 class="od">& Order</h2>
+        </div>
+
+        <!-- cart  -->
+
+        <div class="cart">
+          <img src="./images/cart.jpg" alt="cart" class="cart-i" />
+        </div>
+      </nav>
+    </header>
+    <!-- slider  -->
+    <main class="main-content">
+      <section class="slider-box">
+        <div class="slideshow-container">
+          <div class="mySlides1">
+            <img src="./images/cosmetics.jpg" style="width: 100%" />
+          </div>
+
+          <div class="mySlides1">
+            <img src="./images/home-decor.jpg" style="width: 100%" />
+          </div>
+
+          <div class="mySlides1">
+            <img src="./images/prime-day.jpg" style="width: 100%" />
+          </div>
+          <div class="mySlides1">
+            <img src="./images/tecno.jpg" style="width: 100%" />
+          </div>
+          <div class="mySlides1">
+            <img src="./images/electronics.jpg" style="width: 100%" />
+          </div>
+
+          <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
+        </div>
+      </section>
+
+      <section class="fashion">
+        <div class="cloths">
+          <img src="./images/women-wear.webp" alt="White jeans" />
+
+          <h3 class="fun-fashion">FUNDAY FASHION</h3>
+          <p class="specification">
+            Full Sleeve Blue Solid Women's Denim <br />Jacket
+          </p>
+          <p class="rating">3.7 out of 5 stars 6,458</p>
+          <p class="deal">Deal of the Day</p>
+          <p class="price">
+            ₹ <sub class="p-r">348</sub>
+            <span>
+              <sub>M.R.P: <s> ₹1,499</s> <b> (77% off)</b> </sub></span
+            >
+          </p>
+          <p class="free">FREE Delivery by Amazon</p>
+          <a href="" class="see-more">See More</a>
+        </div>
+        <div class="cloths">
+          <img src="./images/iphone.webp" alt="Iphone" />
+          <h3 class="fun-fashion">MOBILE PHONE</h3>
+          <p class="specification">
+            Iphone 14 pro max with extreme camera<br />quality
+          </p>
+          <p class="rating">4.7 out of 5 stars 22,458</p>
+          <p class="deal">Deal of the Day</p>
+          <p class="price">
+            ₹ <sub class="p-r">60k</sub>
+            <span>
+              <sub>M.R.P: <s> ₹1,22000</s> <b> (77% off)</b> </sub></span
+            >
+          </p>
+          <p class="free">FREE Delivery by Amazon</p>
+          <a href="" class="see-more">See More</a>
+        </div>
+        <div class="cloths">
+          <img src="./images/books.webp" alt="Books" />
+          <h3 class="fun-fashion">STUDY MATERIAL</h3>
+          <p class="specification">
+            Think straight - change your thoughts <br />change your life
+          </p>
+          <p class="rating">4.0 out of 5 stars 2,458</p>
+          <p class="deal">Deal of the Day</p>
+          <p class="price">
+            ₹ <sub class="p-r">448</sub>
+            <span>
+              <sub>M.R.P: <s> ₹499</s> <b> (77% off)</b> </sub></span
+            >
+          </p>
+          <p class="free">FREE Delivery by Amazon</p>
+          <a href="" class="see-more">See More</a>
+        </div>
+        <div class="cloths">
+          <img src="./images/furniture.webp" alt="FURNITURE" />
+          <h3 class="fun-fashion">WOODEN FURNITURE</h3>
+          <p class="specification">
+            wooden furniture and Interior design <br />room designing
+          </p>
+          <p class="rating">3.9 out of 5 stars 8,458</p>
+          <p class="deal">Deal of the Day</p>
+          <p class="price">
+            ₹ <sub class="p-r">22k</sub>
+            <span>
+              <sub>M.R.P: <s> ₹1,00300</s> <b> (77% off)</b> </sub></span
+            >
+          </p>
+          <p class="free">FREE Delivery by Amazon</p>
+          <a href="" class="see-more">See More</a>
+        </div>
+        <div class="cloths">
+          <img src="./images/sports.webp" alt="sports" />
+          <h3 class="fun-fashion">SPORTS EQUIPMENT</h3>
+          <p class="specification">
+            Kashmir willow wooden Bats with cover<br />and a Ball
+          </p>
+          <p class="rating">4.7 out of 5 stars 9,458</p>
+          <p class="deal">Deal of the Day</p>
+          <p class="price">
+            ₹ <sub class="p-r">1.3k</sub>
+            <span>
+              <sub>M.R.P: <s> ₹2,499</s> <b> (77% off)</b> </sub></span
+            >
+          </p>
+          <p class="free">FREE Delivery by Amazon</p>
+          <a href="" class="see-more">See More</a>
+        </div>
+        <div class="cloths">
+          <img src="./images/glucon.webp" alt="Glucon-D" />
+          <h3 class="fun-fashion">GROCERY</h3>
+          <p class="specification">
+            Glucon jumbo pack with 10% extra qnt<br />in orange flavour
+          </p>
+          <p class="rating">3.9 out of 5 stars 5,458</p>
+          <p class="deal">Deal of the Day</p>
+          <p class="price">
+            ₹ <sub class="p-r">1.28k</sub>
+            <span>
+              <sub>M.R.P: <s> ₹1,499</s> <b> (77% off)</b> </sub></span
+            >
+          </p>
+          <p class="free">FREE Delivery by Amazon</p>
+          <a href="" class="see-more">See More</a>
+        </div>
+        <div class="cloths">
+          <img src="./images/shoes.webp" alt="Shoes" />
+          <h3 class="fun-fashion">FOOTWEAR</h3>
+          <p class="specification">
+            Classic Leather Sneakers for Men 's<br />In different colour
+          </p>
+          <p class="rating">4.8 out of 5 stars 6,458</p>
+          <p class="deal">Deal of the Day</p>
+          <p class="price">
+            ₹ <sub class="p-r">4.2k</sub>
+            <span>
+              <sub>M.R.P: <s> ₹13,499</s> <b> (77% off)</b> </sub></span
+            >
+          </p>
+          <p class="free">FREE Delivery by Amazon</p>
+          <a href="" class="see-more">See More</a>
+        </div>
+        <div class="cloths">
+          <img src="./images/music.webp" alt="Guittar" />
+          <h3 class="fun-fashion">MUSICAL INSTRUMENT</h3>
+          <p class="specification">
+            Cort AD880CE 6 Strings Acoust Guitar<br />For right hander
+          </p>
+          <p class="rating">3.5 out of 5 stars 16,458</p>
+          <p class="deal">Deal of the Day</p>
+          <p class="price">
+            ₹ <sub class="p-r">22.4k</sub>
+            <span>
+              <sub>M.R.P: <s> ₹51,499</s> <b> (77% off)</b> </sub></span
+            >
+          </p>
+          <p class="free">FREE Delivery by Amazon</p>
+          <a href="" class="see-more">See More</a>
+        </div>
+        <div class="cloths">
+          <img src="./images/sunglasses.webp" alt="Sunglasses" />
+          <h3 class="fun-fashion">EYES WEAR</h3>
+          <p class="specification">
+            Premium Square Polarized Sunglasses<br />UV Protection
+          </p>
+          <p class="rating">3.8 out of 5 stars 4,458</p>
+          <p class="deal">Deal of the Day</p>
+          <p class="price">
+            ₹ <sub class="p-r">848</sub>
+            <span>
+              <sub>M.R.P: <s> ₹1,400</s> <b> (77% off)</b> </sub></span
+            >
+          </p>
+          <p class="free">FREE Delivery by Amazon</p>
+          <a href="" class="see-more">See More</a>
+        </div>
+        <div class="cloths">
+          <img src="./images/watches.webp" alt=" Watches" />
+          <h3 class="fun-fashion">Watches</h3>
+          <p class="specification">
+            Analog Digital 3ATM Waterproof watch<br />for Mens
+          </p>
+          <p class="rating">3.7 out of 5 stars 3,458</p>
+          <p class="deal">Deal of the Day</p>
+          <p class="price">
+            ₹ <sub class="p-r">2.6k</sub>
+            <span>
+              <sub>M.R.P: <s> ₹1,899</s> <b> (77% off)</b> </sub></span
+            >
+          </p>
+          <p class="free">FREE Delivery by Amazon</p>
+          <a href="" class="see-more">See More</a>
+        </div>
+        <div class="cloths">
+          <img src="./images/cycle.webp" alt="cycle" />
+          <h3 class="fun-fashion">CYCLE</h3>
+          <p class="specification">
+            Leader Scout MTB Mountain Bicycle <br />Idealy for men
+          </p>
+          <p class="rating">4.7 out of 5 stars 1,458</p>
+          <p class="deal">Deal of the Day</p>
+          <p class="price">
+            ₹ <sub class="p-r">3.3k</sub>
+            <span>
+              <sub>M.R.P: <s> ₹7,499</s> <b> (77% off)</b> </sub></span
+            >
+          </p>
+          <p class="free">FREE Delivery by Amazon</p>
+          <a href="" class="see-more">See More</a>
+        </div>
+        <div class="cloths">
+          <img src="./images/gaming-chair.webp" alt="gaming-chair" />
+          <h3 class="fun-fashion">GAMING CHAIR</h3>
+          <p class="specification">
+            ASE GAMING Gold Series Gaming Chair<br />Jacket
+          </p>
+          <p class="rating">3.5 out of 5 stars 6,458</p>
+          <p class="deal">Deal of the Day</p>
+          <p class="price">
+            ₹ <sub class="p-r">18.5k</sub>
+            <span>
+              <sub>M.R.P: <s> ₹40,499</s> <b> (77% off)</b> </sub></span
+            >
+          </p>
+          <p class="free">FREE Delivery by Amazon</p>
+          <a href="" class="see-more">See More</a>
+        </div>
+      </section>
+
+      <!-- more-items -->
+
+      <section class="more-items">
+        <div class="item-heading">
+          <h2>Summer fashion for women</h2>
+          <a href="">See More</a>
+        </div>
+        <div class="morecloths">
+          <img src="./images/more.png" alt="More cloths" />
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="links">
+        <div class="us">
+          <p>Get to Know Us</p>
+          <a href="">About Us</a>
+          <a href="">Careers</a>
+          <a href=""> Press Releases</a>
+          <a href="">Amazon Science</a>
+        </div>
+        <div class="us">
+          <p>Connect with Us</p>
+          <a href="">Facebook</a>
+          <a href="">Twitter</a>
+          <a href="">Instagram</a>
+        </div>
+        <div class="us">
+          <p>Make Money with Us</p>
+          <a href="">Sell on Amazon</a>
+          <a href="">Sell under Amazon Accelerator</a>
+          <a href="">Protect and Build Your Brand</a>
+          <a href="">Amazon Global Selling</a>
+          <a href="">Become an Affiliate</a>
+          <a href="">Fulfilment by Amazon</a>
+          <a href="">Advertise Your Products</a>
+          <a href="">Amazon Pay on Merchants</a>
+        </div>
+
+        <div class="us">
+          <p>Let Us Help You</p>
+          <a href="">COVID-19 and Amazon</a>
+          <a href="">Your Account</a>
+          <a href="">Returns Centre</a>
+          <a href="">100% Purchase Protection</a>
+          <a href="">Amazon App Download </a>
+          <a href="">Help </a>
+        </div>
+      </div>
+
+      <div class="copyright">
+        <div class="useful">
+          <a href="">Conditions of Use & Sale</a>
+          <a href="">Privacy Notice</a>
+          <a href="">Interest-Based Ads</a>
+        </div>
+       <h4> © 1996-2023, Amazon.com, Inc. or its affiliates</h4>
+      </div>
+    </footer>
+
+    <!-- javascript  -->
+    <script>
+      let slideIndex = [1, 1];
+      let slideId = ["mySlides1", "mySlides2"];
+      showSlides(1, 0);
+      showSlides(1, 1);
+
+      function plusSlides(n, no) {
+        showSlides((slideIndex[no] += n), no);
+      }
+
+      function showSlides(n, no) {
+        let i;
+        let x = document.getElementsByClassName(slideId[no]);
+        if (n > x.length) {
+          slideIndex[no] = 1;
+        }
+        if (n < 1) {
+          slideIndex[no] = x.length;
+        }
+        for (i = 0; i < x.length; i++) {
+          x[i].style.display = "none";
+        }
+        x[slideIndex[no] - 1].style.display = "block";
+      }
+    </script>
+  </body>
+</html>
